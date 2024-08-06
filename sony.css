@@ -1,0 +1,918 @@
+* {
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    background: transparent;
+    text-decoration: none;
+    outline: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;   
+}
+ol, ul {
+    list-style: none;
+}
+del {
+    text-decoration: line-through;
+}
+@font-face {
+    font-family: 'sstmedium_italic';
+    src: url('../sony/fonts/sstmediumit-webfont.woff2') format('woff2'),
+         url('../sony/fonts/sstmediumit-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body {
+    font-family:'sstmedium_italic', sans-serif;
+}
+#home {
+    background-color: black;
+    height: 64px;
+}
+#home .wrapper {
+    width: 90%;
+    max-width: 1280px;
+    margin-inline: auto;
+}
+#home div.container {
+    display: flex;
+    justify-content: space-between;
+}
+#home div.container div.navleft img {
+    display:block;
+    width: 78%;
+}
+#home div.container div.navleft {
+    align-content: center;
+}
+#home div.container div.navright button {
+    border-color: transparent;
+    width: auto;
+    color: #fff;
+    cursor: pointer;
+}
+
+#home  div.container div.navright {
+    
+}
+#home  div.container div.navright button.buttonone {
+    padding-left: 40px;
+    width: 160px;
+    height: 63px;
+}
+#home div.container div.navright button.buttonone:hover {
+    background-color:#02132a;
+}
+
+#home div.container div.navright button.buttonone div.men img {
+    display: block;
+    width: 66%;
+}
+
+
+#home div.container div.navright button.buttontwo{
+    width: 70px;
+    height: 59px;
+}
+#home div.container div.navright button.buttontwo:hover {
+    background-color: #02132a;
+}
+#home div.container div.navright button.buttontwo img {
+    width: 26px;
+    height: 26px;
+}
+#home div.container div.navright button.buttonthree {
+    width: 70px;
+    height: 59px;
+}
+#home div.container div.navright button.buttonthree:hover {
+    background-color: #02132a;
+}
+#home div.container div.navright button.buttonthree img {
+    width: 26px;
+    height: 26px;
+}
+#home div.container div.navright button.buttonfour {
+    width: 70px;
+    height: 59px;
+}
+#home div.container div.navright button.buttonfour:hover {
+    background-color: #02132a;
+}
+#home  div.container div.navright button.buttonfour img {
+    width: 28px;
+    height: 26px;
+}
+/* spotlight_section */
+
+
+#spotlight {
+    background-image: url(images/tv1.webp);
+    width: 100%;
+    padding: 100px 0;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+        
+}
+#spotlight .wrapper {
+    width: 90%;
+    max-width: 1280px;
+    margin-inline: auto;
+}
+
+
+#spotlight div.braviotv div.content h2 {
+    font-weight: 400;
+    font-style: normal;
+    text-rendering: optimizeLegibility;
+    color: #2f353d;
+    font-size: 15px;
+    line-height: 1.46667;
+    margin-bottom: .25rem;
+}
+#spotlight div.braviotv div.content h3 {
+    font-weight: 400;
+    font-style: normal;
+    text-rendering: optimizeLegibility;
+    color: #2f353d;
+    font-size: 38px;
+    line-height: 1.15789;
+    letter-spacing: -.04rem;
+    margin: 0;
+}
+#spotlight div.xbutton {
+    cursor: pointer;
+    background-color: #2d75c7;
+    width: 128px;
+    height: 40px;
+  
+    margin-top: 13px;
+}
+#spotlight div.xbutton h4 {
+    font-size: 13px;
+    font-weight: 50;
+    color: #fff;
+    text-align: center;
+    padding: 12px;
+}
+#spotlight div.xbutton:hover {
+    background-color: #34568e;
+}
+
+/* promotions */
+
+#promotion {
+ 
+}
+#promotion .wrapper {
+    width: 90%;
+    max-width: 1280px;    
+    margin-inline: auto;
+  
+}
+#promotion div.offercontainer {
+    padding: 44px;
+    
+}
+#promotion div.offercontainer h1.offerheading {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-rendering: optimizeLegibility;
+    font-size: 1.375rem;
+    line-height: 1.36364;
+    letter-spacing: .05rem;
+    color: #2f353d;
+    margin: 0 0 33px;
+}
+#promotion div.offercontainer div.offerone {
+    display: flex;
+    background-color:#f2f5f9;
+   
+}
+#promotion div.offercontainer div.offerone .offeroneleft {
+    width: 48%;
+}
+#promotion div.offercontainer div.offerone .offeroneleft img {
+    width: 100%;
+    display: block;
+    cursor: pointer;
+    
+}
+#promotion div.offercontainer div.offerone .offeroneright {
+    cursor: pointer;
+    padding: 45px;
+    padding-top: 120px;
+
+}
+#promotion div.offercontainer div.offerone .offeroneright p.headlineone {
+    font-weight: 400;
+    font-style: normal;
+    text-rendering: optimizeLegibility;
+    color: #2f353d;
+    font-size: 30px;
+    line-height: 1.2;
+    letter-spacing: -.04rem;
+    -webkit-margin-after: 0;
+    margin-block-end: 0;
+    margin-bottom: 20px;
+}
+#promotion div.offercontainer div.offerone .offeroneright p.headlinetwo {
+    
+    font-weight: 400;
+    font-style: normal;
+    color: #6b6b7b;
+    font-size: 15px;
+    line-height: 1.46667;
+    margin-bottom: 20px;
+}
+/* offertwo */
+#promotion div.offercontainer div.offertwo {
+    margin-top: 20px;
+    display: flex;
+    background-color: #f2f5f9;
+
+}
+#promotion div.offercontainer div.offertwo .offertwoleft {
+    width: 48%;
+
+}
+#promotion div.offercontainer div.offertwo .offertwoleft img {
+    display: block;
+    cursor: pointer;
+    width: 100%;
+}
+#promotion div.offercontainer div.offertwo .offertworight {
+    cursor: pointer;
+    padding: 45px;
+    padding-top: 120px;
+
+}
+#promotion div.offercontainer div.offertwo .offertworight p.headlinethree {
+    font-weight: 400;
+    font-style: normal;
+    text-rendering: optimizeLegibility;
+    color: #2f353d;
+    font-size: 30px;
+    line-height: 1.2;
+    letter-spacing: -.04rem;
+    -webkit-margin-after: 0;
+    margin-block-end: 0;
+    margin-bottom: 20px;
+}
+#promotion div.offercontainer div.offertwo .offertworight p.headlinefour {
+    
+    font-weight: 400;
+    font-style: normal;
+    color: #6b6b7b;
+    font-size: 15px;
+    line-height: 1.46667;
+    margin-bottom: 20px;
+}
+
+/* offerthree */
+
+#promotion div.offercontainer div.offerthree {
+    margin-top: 20px;
+    display: flex;
+    background-color: #f2f5f9;
+
+}
+#promotion div.offercontainer div.offerthree .offerthreeleft {
+    width: 48%;
+}
+#promotion div.offercontainer div.offerthree .offerthreeleft img {
+    display: block;
+    cursor: pointer;
+    width: 100%;
+}
+#promotion div.offercontainer div.offerthree .offerthreeright {
+    cursor: pointer;
+    padding: 45px;
+    padding-top: 120px;
+
+}
+#promotion div.offercontainer div.offerthree .offerthreeright p.headlinefive {
+    font-weight: 400;
+    font-style: normal;
+    text-rendering: optimizeLegibility;
+    color: #2f353d;
+    font-size: 30px;
+    line-height: 1.2;
+    letter-spacing: -.04rem;
+    -webkit-margin-after: 0;
+    margin-block-end: 0;
+    margin-bottom: 20px;
+}
+#promotion div.offercontainer div.offerthree .offerthreeright p.headlinesix {
+    
+    font-weight: 400;
+    font-style: normal;
+    color: #6b6b7b;
+    font-size: 15px;
+    line-height: 1.46667;
+}
+
+/* footer */
+#footer {
+    background-color: black;
+    
+}
+#footer  .wrapper {
+    width: 90%;
+    max-width: 1280px;
+    margin-inline: auto;
+   
+}
+#footer div.footermain {
+    font-family: sans-serif;
+    color: #6b6b7b;
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+#footer div.footermain a{
+    
+}
+/* sectionone */
+#footer div.footermain div.sectionone {
+
+}
+#footer div.footermain div.sectionone a {
+    cursor: pointer;
+    line-height: 3;
+    font-size: 13px;
+    color: white;
+}
+#footer div.footermain div.second {
+    display: contents;
+}
+/* sectiontwo */
+#footer div.footermain div.sectiontwo {
+    /* margin-left: 68px; */
+
+}
+#footer div.footermain div.sectiontwo a {
+    cursor: pointer;
+    line-height: 3;
+    font-size: 13px;
+    color: white;
+}
+/* sectionthree */
+#footer div.footermain div.sectionthree {
+
+}
+#footer div.footermain div.sectionthree a {
+    cursor: pointer;
+    line-height: 3;
+    font-size: 13px;
+    color: white;
+}
+/* sectionfour */
+#footer div.footermain div.sectionfour {
+
+}
+#footer div.footermain div.sectionfour a {
+    cursor: pointer;
+    line-height: 3;
+    font-size: 13px;
+    color: white;
+}
+/* next */
+#footer  div.nextsection  {
+    /* float: right; */
+}
+#footer  div.nextsection div.nextone {
+    margin: 44px 0;
+   
+
+}
+#footer  div.nextsection div.nextone a{
+    cursor: pointer;
+    font-family: sans-serif;
+    font-size: 13px;
+    color: white;
+    
+}
+#footer  div.nextsection div.nextone ul {
+    display: flex;
+    justify-content: end;
+  
+    
+}
+#footer  div.nextsection div.nextone ul li {
+    
+    margin-left: 27px;
+}
+#footer  div.nextsection div.nexttwo a {
+    color: #fff;
+    background-color: rgb(60, 60, 66);
+    margin-left: 5px;
+    padding: 6px 11px;
+    font-size: 22px;
+   
+    
+}
+#footer  div.nextsection div.nexttwo {
+    display: flex;
+
+   
+    
+}
+#footer div.borderb{
+    display: block;
+    background-color: #655c5c;
+    width: 1200px;
+    height: 1px;
+    margin-top: 25px;
+}
+
+.fa-facebook{
+    padding: 2%;
+}
+.fa-instagram  {
+    padding: 2%;
+}
+.fa-twitter {
+    padding: 2%;
+}
+.fa-linkedin {
+    padding: 2%;
+}
+#footer div.bottom {
+    padding: 30px;
+    font-family: sans-serif;
+    font-size: 10px;
+    color: white;
+    
+}
+#footer div.bottom ul {
+    display: flex;       
+}
+#footer div.bottom ul li {
+    margin-left: 20px;
+}
+#footer div.bottom p {
+    padding: 20px;
+    color: darkgray;
+}
+.social{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.india{
+    color: white;
+    background-color: rgb(60, 60, 66);
+
+
+}
+.india a{
+    display: block;
+    font-size: 14px;
+    padding: 11px;
+}
+.button{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 0;
+    border: .0625rem solid rgba(255, 255, 255, .4);
+    border-radius: .0625rem;
+    background-color: #2d75c7;
+    -webkit-transition: background-color .25s;
+    transition: background-color .25s;
+    font-family: SST W01 Roman, sans-serif, Helvetica Neue, Helvetica, Arial;
+    -webkit-font-smoothing: subpixel-antialiased;
+    line-height: inherit;
+    padding: .625rem 1.25rem;
+    font-size: .75rem;
+    min-width: 5.75rem;
+    line-height: 1.2375;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    padding: .25rem 1.5rem;
+    line-height: 1.666667;
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    height: 1.75rem;
+    width: 25%;
+    margin-left: 9px;
+
+}
+.button p{
+    font-size: 11px;
+
+    font-weight: 50;
+    color: #fff;
+    text-align: center;
+  
+
+}
+.inputbox{
+    display: flex;
+    border: 1px solid #878792;
+    padding: 7px 10px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 22px;
+   
+
+}
+input[type="text"] {
+    border: none;
+    outline: none;
+    background-color: transparent; /* if you want to remove background */
+    /* Add any additional styling as needed */
+    padding: 5px 5px;
+    color: white;
+    width: 149px;
+
+}
+input[type="text"]:focus {
+    border: 1px solid white;;
+    border-radius: 3px; 
+}
+.first{
+    display: flex;
+
+}
+
+@media all and (max-width: 1400px) {
+    #promotion div.offercontainer div.offerone .offeroneleft img {
+        width: 97%;
+        height: 100%;
+        object-fit: fill;
+    }
+    #promotion div.offercontainer div.offertwo .offertwoleft img {
+        height: 100%;
+        object-fit: fill;
+   
+    }
+    #promotion div.offercontainer div.offerthree .offerthreeleft img {
+        height: 100%;
+        object-fit: fill;
+    }
+
+        
+}
+@media all and (max-width: 1280px) {
+    #promotion div.offercontainer div.offerone {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #f2f5f9;
+    }
+    #promotion div.offercontainer div.offerone .offeroneleft img {
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+    }
+    #promotion div.offercontainer div.offerone .offeroneleft {
+        width: 100%;
+    }
+    #promotion div.offercontainer div.offertwo {
+        flex-wrap: wrap;
+      
+    }
+    #promotion div.offercontainer div.offertwo .offertwoleft img {
+        width: 100%;
+    }
+    #promotion div.offercontainer div.offertwo .offertwoleft {
+        width: 100%;
+    }
+    #promotion div.offercontainer div.offerthree {
+        flex-wrap: wrap;
+        
+
+    }
+    #promotion div.offercontainer div.offerthree .offerthreeleft img {
+        width: 100%;
+    }
+    #promotion div.offercontainer div.offerthree .offerthreeleft {
+        width: 100%;
+        
+    }
+    #promotion div.offercontainer div.offerone .offeroneright {
+        cursor: pointer;
+        padding: 45px;
+        padding-top: 28px;
+    }
+    #promotion div.offercontainer div.offertwo .offertworight {
+        cursor: pointer;
+        padding: 45px;
+        padding-top: 28px;
+    }
+    #promotion div.offercontainer div.offerthree .offerthreeright {
+        cursor: pointer;
+        padding: 45px;
+        padding-top: 28px;
+    }
+  
+    #spotlight {
+        padding: 61px;
+    }
+    
+    
+}
+@media all and (max-width: 920px) {
+    #spotlight {
+        background-position-x: right;
+    }
+    #footer div.nextsection div.nextone {
+        margin: 27px 0;
+    }
+    #footer div.nextsection div.nextone ul li {
+        margin-left: 7px;
+    }
+    
+}
+@media all and (max-width: 781px) {
+    #footer div.nextsection div.nextone ul {
+        display: block;
+    }
+}
+
+@media all and (max-width: 768px) {
+    #spotlight {
+        background-position-x: center;
+    }
+    #footer div.nextsection div.nextone a {
+        cursor: pointer;
+        font-family: sans-serif;
+        font-size: 12px;
+        color: white;
+    }
+}
+
+@media all and (max-width: 700px) {
+    #footer div.footermain div.second {
+        display: block;
+    }
+
+}
+@media all and (max-width: 640px) {
+   
+    #spotlight {
+        padding: 25px;
+    }
+    #spotlight div.braviotv div.content h3 {
+        font-size: 24px;
+    }
+    #promotion div.offercontainer h1.offerheading {
+        font-size: 16px;
+    }
+   
+    #footer div.nextsection div.nextone ul {
+        display: block;
+        line-height: 32px;
+    }
+
+    #promotion div.offercontainer div.offerone .offeroneright p.headlinetwo {
+        font-weight: 400;
+        font-style: normal;
+        color: #6b6b7b;
+        font-size: 12px;
+        line-height: 1.46667;
+        margin-bottom: 20px;
+    }
+    #promotion div.offercontainer div.offerone .offeroneright p.headlineone {
+        font-weight: 400;
+        font-style: normal;
+        text-rendering: optimizeLegibility;
+        color: #2f353d;
+        font-size: 22px;
+        line-height: 1.2;
+        letter-spacing: -.04rem;
+        -webkit-margin-after: 0;
+        margin-block-end: 0;
+        margin-bottom: 20px;
+    }
+    
+    #promotion div.offercontainer div.offertwo .offertworight p.headlinethree {
+        font-weight: 400;
+        font-style: normal;
+        text-rendering: optimizeLegibility;
+        color: #2f353d;
+        font-size: 22px;
+        line-height: 1.2;
+        letter-spacing: -.04rem;
+        -webkit-margin-after: 0;
+        margin-block-end: 0;
+        margin-bottom: 20px;
+    }
+    #promotion div.offercontainer div.offertwo .offertworight p.headlinefour {
+        font-weight: 400;
+        font-style: normal;
+        color: #6b6b7b;
+        font-size: 12px;
+        line-height: 1.46667;
+        margin-bottom: 20px;
+    }
+    
+    #promotion div.offercontainer div.offerthree .offerthreeright p.headlinefive {
+        font-weight: 400;
+        font-style: normal;
+        text-rendering: optimizeLegibility;
+        color: #2f353d;
+        font-size: 22px;
+        line-height: 1.2;
+        letter-spacing: -.04rem;
+        -webkit-margin-after: 0;
+        margin-block-end: 0;
+        margin-bottom: 20px;
+    }
+    #promotion div.offercontainer div.offerthree .offerthreeright p.headlinesix {
+        font-weight: 400;
+        font-style: normal;
+        color: #6b6b7b;
+        font-size: 12px;
+        line-height: 1.46667;
+    }
+   
+} 
+@media all and (max-width: 564px) {
+    #home div.container div.navright button.buttonone {
+        padding-left: 0px;
+        width: 80px;
+        height: 63px;
+    }
+    #home div.container div.navright button.buttontwo {
+        width: 35px;
+        height: 59px;
+    }
+    #home div.container div.navright button.buttonthree {
+        width: 35px;
+        height: 59px;
+    }
+    #home div.container div.navright button.buttonfour {
+        width: 26px;
+        height: 59px;
+    }
+    #home div.container div.navright button.buttonone div.men img {
+        display: block;
+        width: 97%;
+    }
+
+}
+@media all and (max-width: 480px) {
+    #spotlight {
+        padding: 14px;
+    }
+    #spotlight div.braviotv div.content h2 {
+        font-size: 10px;
+    }
+    #spotlight div.braviotv div.content h3 {
+        font-size: 17px;
+    }
+    #spotlight div.xbutton h4 {
+        font-size: 9px;
+    }
+    #spotlight div.xbutton {
+        cursor: pointer;
+        background-color: #2d75c7;
+        width: 79px;
+        height: 31px;
+        margin-top: 13px;
+    }
+  
+ 
+    #promotion div.offercontainer div.offerone .offeroneright p.headlineone {
+        font-size: 17px;
+        
+    }
+    #promotion div.offercontainer div.offertwo .offertworight p.headlinethree {
+      
+        font-size: 17px;
+       
+    }
+    #promotion div.offercontainer div.offerthree .offerthreeright p.headlinefive {
+      
+        font-size: 17px;
+        
+    }
+   
+    #promotion div.offercontainer h1.offerheading {
+        font-size: 14px;
+    }
+    #footer div.footermain {
+        display: block;
+    }
+} 
+@media all and (max-width: 360px) {
+    #spotlight {
+        background-position-x: center;
+    }
+    #home div.container div.navleft {
+        width: 23%;
+    }
+    #home div.container div.navright button.buttonone {
+        width: 50px;
+    }
+    #home div.container div.navright button.buttontwo {
+        width: 28px;
+        height: 59px;
+    }
+    #home div.container div.navright button.buttonthree {
+        width: 27px;
+        height: 59px;
+    }
+    #home div.container div.navright button.buttonone div.men img {
+        height: 28px;
+    }
+    #promotion div.offercontainer div.offerone .offeroneright p.headlineone {
+        font-size: 16px;
+    }
+    promotion div.offercontainer div.offertwo .offertworight p.headlinethree {
+        font-size: 16px;
+    }
+    #promotion div.offercontainer div.offerthree .offerthreeright p.headlinefive {
+        font-size: 16px;
+    }
+    
+    */
+    #footer div.bottom ul li {
+        font-size: 6px;
+    }
+    #promotion div.offercontainer div.offerone .offeroneleft {
+        height: 250px;
+    }
+    #promotion div.offercontainer div.offertwo .offertwoleft {
+        height: 250px;
+    }
+    #promotion div.offercontainer div.offerthree .offerthreeleft {
+        height: 250px;
+    }
+}  
+@media all and (max-width: 321px) {
+    #footer div.nextsection div.nexttwo a {
+        color: #fff;
+        background-color: rgb(60, 60, 66);
+        margin-left: 5px;
+        padding: 10px 9px;
+        font-size: 16px;
+    }
+    #footer div.bottom {
+        padding: 30px;
+        font-family: sans-serif;
+        font-size: 6px;
+        color: white;
+    }
+    #footer div.bottom p {
+        padding: 43px;
+        color: darkgray;
+    }
+    spotlight .wrapper {
+        width: 99%;
+        max-width: 1280px;
+        margin-inline: auto;
+        padding: 8px;
+    }
+    
+}  
+
+ 
+
+   
+
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+ 
+
+
+
+
+ 
+
